@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+django-cors-headers = "*"
+django-debug-toolbar = "*"
+drf-nested-routers = "*"
+django-filter = "*"
+djoser = "*"
+pillow = "*"
+djangorestframework = "*"
+mysqlclient = "*"
+django-templated-mail = "*"
+redis = "*"
+celery = "*"
+flower = "*"
+
+[dev-packages]
+pytest = "*"
+pytest-django = "*"
+model-bakery = "*"
+locust = "*"
+
+[requires]
+python_version = "3.12"

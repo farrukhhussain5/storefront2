@@ -1,0 +1,9 @@
+django
+django-cors-headers
+django-debug-toolbar
+drf-nested-routers
+django-filter
+djoser
+pillow
+djangorestframework
+mysqlclient
